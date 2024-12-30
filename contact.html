@@ -18,12 +18,32 @@
         </nav>
     </header>
     <main>
-        <section id="contact-info">
+        <section id="contact">
             <h2>联系方式</h2>
             <p><strong>邮箱：</strong>example@example.com</p>
             <p><strong>电话：</strong>123-456-7890</p>
-            <p><strong>GitHub：</strong><a href="https://github.com/luoge6869" target="_blank">https://github.com/luoge6869</a></p>
+            <p><strong>GitHub：</strong>
+             <a href="https://github.com/luoge6869"target="_blank" 
+             rel="noopener noreferrer">https://github.com/luoge6869</a></p>
         </section>
+        <section id="contact-info">
+            <h1>联系我</h1>
+            <p>如果您有任何问题或想法，请通过以下方式联系我：</p>
+            <form id="myform" method="post">
+               <label for="name">姓名：</label><br>
+               <input type="text" id="name" name="name"><br><br>
+        
+                <label for="email">邮箱：</label><br>
+                <input type="email" id="email" name="email"><br><br>
+        
+                <label for="message">消息：</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+        
+              <input type="submit" value="提交">
+            </form>
+        </section>
+        
+        
     </main>
     <footer>
         <p>© 2024 luoge. 保留所有权利。</p>
@@ -32,5 +52,6 @@
             <a href="#">其他链接2</a>
         </nav>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

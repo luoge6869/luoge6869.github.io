@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系方式 - 我的名字</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>我的名字</h1>
+        <nav>
+            <a href="index.html">主页</a> |
+            <a href="project.html">项目</a> |
+            <a href="perception.html">感悟</a> |
+            <a href="contact.html">联系</a>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h1>联系我</h1>
+            <p>如果您有任何问题或合作意向，请通过以下方式联系我：</p>
+
+            <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>联系方式</legend>
+                    <label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email" required placeholder="您的电子邮箱地址"><br><br>
+                    <label for="phone">电话号码：</label>
+                    <input type="tel" id="phone" name="phone" placeholder="您的电话号码"><br><br>
+                    <label for="message">信息：</label><br>
+                    <textarea id="message" name="message" rows="5" cols="50" required placeholder="您想说的话"></textarea><br><br>
+                    <label for="github">GitHub 网址：</label>
+                    <input type="url" id="github" name="github" placeholder="您的 GitHub 个人主页网址"><br><br>
+                    <button type="submit">发送</button>
+                    <button type="reset">重置</button>
+                </fieldset>
+            </form>
+            <div class="contact-info">
+                <h2>其他联系方式</h2>
+                <ul>
+                    <li>GitHub：<a href="https://github.com/luoge6869" target="_blank" rel="noopener noreferrer">github.com/yourusername</a></li>
+                    <li>其他社交媒体链接（可选）</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 luoge. 保留所有权利。</p>
+        <nav>
+            <a href="#">其他链接1</a> |
+            <a href="#">其他链接2</a>
+        </nav>
+    </footer>
+</body>
+</html>
